@@ -46,7 +46,7 @@ public class TestClass1 {
 	@Test
 	public void test3() {
 		driver.navigate().to("https://www.geeksforgeeks.org/");
-		System.out.print("TestCase 3:- " + driver.getCurrentUrl());
+		System.out.print("TestCase 3: " + driver.getCurrentUrl());
 	}
 
 	@AfterMethod
